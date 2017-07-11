@@ -1,0 +1,27 @@
+.sidebar {
+  .hotelList {
+    background-color: $lightGrey;
+    padding: 5px;
+    width: 248px;
+    margin-top: 20px;
+    .hotelListItem {
+      display: flex;
+      justify-content: space-between;
+      margin: 5px;
+      font-family: $sans-serif;
+      .hotelName {
+        display: flex;
+        flex-flow: row wrap;
+        width: 70%;
+        color: $lightPurple;
+        
+      }
+    }
+  }
+}
+
+.seemore {
+  margin: 10px 0px 10px 15px;
+  font-family: $sans-serif;
+  color: $lightPurple;
+}

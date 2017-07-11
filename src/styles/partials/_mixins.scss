@@ -1,0 +1,13 @@
+@mixin tab($fontColor, $borderColor) {
+  border: none;
+  background-color: transparent;
+  color: $fontColor;
+  border-bottom: 4px solid $borderColor;
+  &:hover, &:focus {
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-bottom: 4px solid $borderColor;
+    outline: 0;
+  }
+}

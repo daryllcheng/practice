@@ -1,0 +1,23 @@
+.contentTabs {
+  width: 645px;
+  font-family: $sans-serif;
+  .nav-tabs {
+    text-align:center;
+    background: $lightPurple;
+    border-bottom: 1px solid $lightPurple;
+    li {
+      width: 33.33333333%;    
+      &.active a {
+        @include tab($white, $darkPurple);
+      }
+      a {
+        @include tab($superLightPurple, $pink);
+        border: none;
+      }
+    }
+  }
+  .detail {
+    margin: 15px;
+  }
+}
+
